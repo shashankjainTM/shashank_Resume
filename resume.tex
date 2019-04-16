@@ -1,0 +1,73 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.75in, bottom=0.75in, left=0.55in, right=0.85in]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{tabularx}
+\fontfamily{SansSerif}
+\usepackage{hyperref}
+\usepackage{fontawesome}
+
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+\makeatletter
+
+\begin{document}
+\hspace{0.5cm}\\[-0.2cm]
+
+
+
+\textbf{SHASHANK JAIN T M} \\ 
+\indent MT Jain hostel, \\
+\indent KR Road shankarpuram,\\
+\indent BANGALORE - 04\\
+\indent Email-id :\textbf{1bm16ec102@bmsce.ac.in} \\
+\indent Mobile No.: \textbf{8277569228} \\
+\indent\faGithub\href{https://github.com/shashankjainTM}{shashank}\hfill 
+\smash{\includegraphics[width=3cm]{pic.jpg}}\\
+
+\resheading{\textbf{CAREER SUMMARY} }\\[\lsep]\\ \\
+\indent An Electronics and Communication student seeking to pursue a carrier in the field of embedded systems\\ \indent and design.\\
+
+\resheading{\textbf{EDUCATION} }\\[\lsep]
+\begin{itemize}
+\item \noindent \textbf{Undergraduate (current)}\\
+\indent B.E (Electronics and Communication) | BMS College of Engineering, Bangalore | Visvesvaraya Technological University | CGPA 8.48 (5th sem) | Passing Year - 2020.
+
+\item \noindent \textbf{Pre-University}\\
+\indent Sarvodaya PU College, Horpet Tumkur | NCERT (PCME) | Aggregate 97.52\% | Year - 2016.
+
+\item \noindent \textbf{10th SSLC}\\
+\indent Maruthi Vidya Kendra | State Board | Aggregate 95.52\% | Year - 2014.
+\end{itemize}
+
+\end{document}
+
